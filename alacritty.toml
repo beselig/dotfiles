@@ -1,0 +1,25 @@
+# shell = "/bin/zsh"
+# working_directory = "~/projects"
+
+[window]
+padding = { x = 15, y = 15 }
+decorations = "None"
+
+[font]
+size = 17
+offset = { y = 3 }
+# builtin_box_drawing = false
+
+[font.normal]
+family = "Monaspace Neon"
+style = "Light"
+[font.bold]
+style = "Bold"
+[font.bold_italic]
+family = "Monaspace Radon"
+style = "Bold"
+[font.italic]
+family = "Monaspace Radon"
+
+[colors]
+cursor = { cursor = "#33FF11" }
