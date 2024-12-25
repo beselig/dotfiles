@@ -2,24 +2,51 @@
 # working_directory = "~/projects"
 
 [window]
-padding = { x = 15, y = 15 }
+padding = { x = 5, y = 5 }
 decorations = "None"
 
+# install nerd font first. here are the commands:
+# $ brew search nerd-font | grep <font-name>
+# $ brew install homebrew/cask-fonts/<font-name>
+# $ fc-list : family | sort -f | grep Nerd
+# output is like: `<Font Name>,<Abbreviation of Font name>`
 [font]
-size = 17
-offset = { y = 3 }
-# builtin_box_drawing = false
+size = 18
+offset =  { y = 5}
 
 [font.normal]
-family = "Monaspace Neon"
-style = "Light"
-[font.bold]
-style = "Bold"
-[font.bold_italic]
-family = "Monaspace Radon"
-style = "Bold"
-[font.italic]
-family = "Monaspace Radon"
+family = "JetBrainsMono NF"
+style = "Regular"
 
-[colors]
-cursor = { cursor = "#33FF11" }
+[font.bold]
+family = "JetBrainsMono NF"
+style = "Bold"
+
+[font.bold_italic]
+family = "JetBrainsMono NF"
+style = "Bold Italic"
+
+[font.italic]
+family = "JetBrainsMono NF"
+style = "Italic"
+
+
+# [font]
+# size = 17
+# offset =  { y = 8}
+#
+# [font.normal]
+# family = "MonaspiceNe NF"
+# style = "Regular"
+#
+# [font.bold]
+# family = "MonaspiceNe NF"
+# style = "Bold"
+#
+# [font.bold_italic]
+# family = "MonaspiceRn NF"
+# style = "Bold Italic"
+#
+# [font.italic]
+# family = "MonaspiceRn NF"
+# style = "Italic"
