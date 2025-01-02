@@ -11,8 +11,8 @@ decorations = "None"
 # $ fc-list : family | sort -f | grep Nerd
 # output is like: `<Font Name>,<Abbreviation of Font name>`
 [font]
-size = 18
-offset =  { y = 5}
+size = 15
+offset =  { y = 3}
 
 [font.normal]
 family = "JetBrainsMono NF"
@@ -29,6 +29,14 @@ style = "Bold Italic"
 [font.italic]
 family = "JetBrainsMono NF"
 style = "Italic"
+
+[colors]
+cursor = { cursor = "#66DD44" }
+# cursor = { cursor = "#33FF11" }
+
+# [colors.primary]
+# background = "#d8d8d8"
+# foreground = "#181818"
 
 
 # [font]
